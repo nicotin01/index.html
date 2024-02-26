@@ -1,5 +1,5 @@
 var mapa = L.map("contenedor-del-mapa").setView([-34.9199175,-57.9469103], 13);
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {}).addTo(mapa);
+L.tileLayer("none", {}).addTo(mapa);
 
 var marcador= L.marker([-34.9178707,-57.9575706]).addTo(mapa)
 marcador.bindPopup("Crisana plant based")
